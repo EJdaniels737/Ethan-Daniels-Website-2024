@@ -1,0 +1,15 @@
+Node download: https://nodejs.org/en
+
+!!Make sure you copy to PATH!!
+
+To configure your workspace run these in your terminal:
+
+npx create-react-app my-static-website
+cd my-static-website
+npm install react-router-dom
+
+
+to start the app:
+'''
+npm start
+'''

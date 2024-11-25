@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #0A1F44; /* Navy background */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: #FDF5E6; /* Cream text */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #D4C4B0; /* Light brown */
+    color: #0A1F44; /* Navy text on hover */
+}
+
+.active {
+    background-color: #D4C4B0; /* Light brown */
+    color: #0A1F44; /* Navy text */
+}

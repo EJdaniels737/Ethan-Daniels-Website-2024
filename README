@@ -13,3 +13,11 @@ to start the app:
 '''
 npm start
 '''
+to push your changes:
+
+git add .
+git commit -m "add a message here"
+git push
+
+to pull changes:
+git pull

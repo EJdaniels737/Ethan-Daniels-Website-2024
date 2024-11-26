@@ -7,8 +7,6 @@ To configure your workspace run these in your terminal:
 cd my-static-website
 npm install react-router-dom
 
-yerp
-
 to start the app:
 '''
 npm start
